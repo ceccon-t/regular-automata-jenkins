@@ -1,0 +1,30 @@
+CHANGELOG
+
+List of features/changes introduced in each release.
+
+=============
+Version 1.1.0
+---
+- Added changelog
+- Standardization of format of files for automata
+- No longer necessary to convert automaton before recognizing words, all types of automata now have a recognize method
+- Added NFAe data structure 
+- Added NFA to NFAe conversion 
+- Added deterministic version as a private property for non-deterministic automata, to avoid running conversion many times when recognizing lists of words
+- Added all possible conversions between the types of automata
+- Changed behavior of load button on GUI to always load automata as the tightest type possible given its structure (prevalence order: DFA -> NFA -> NFAe)
+- Added buttons to convert current automaton to NFA or NFAe
+- Added button to clear table of words
+- Added information about type and number of states of the automaton on GUI
+- Refactored storage classes to have static methods  
+
+=============
+Version 1.0.0
+---
+- Initial release
+- User can load NFAs from files
+- User can load list of words from files
+- User can convert NFA loaded to DFA
+- User must convert NFA to DFA before being able to recognize words
+- User can run a list of words through automaton loaded and see which ones were recognized
+
