@@ -2,6 +2,12 @@ CHANGELOG
 
 List of features/changes introduced in each release.
 
+
+=============
+Version 1.1.1
+---
+- Testing integration with Jenkins
+
 =============
 Version 1.1.0
 ---
