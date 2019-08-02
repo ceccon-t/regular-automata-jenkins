@@ -3,6 +3,11 @@ CHANGELOG
 List of features/changes introduced in each release.
 
 =============
+Version 1.1.1
+---
+- Does nothing, just testing Jenkins.
+
+=============
 Version 1.1.0
 ---
 - Added changelog
