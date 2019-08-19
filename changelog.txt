@@ -2,6 +2,7 @@ CHANGELOG
 
 List of features/changes introduced in each release.
 
+a
 =============
 Version 1.1.0
 ---
