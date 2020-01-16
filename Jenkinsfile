@@ -1,5 +1,5 @@
-node() {
-    git checkout scm
+node {
+    checkout scm
 
     bat label: '', script: 'mvn clean package'
 }
