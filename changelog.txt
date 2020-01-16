@@ -6,7 +6,7 @@ List of features/changes introduced in each release.
 Version 1.1.1
 ---
 - Does nothing, just testing Jenkins. 
-- Added Jenkinsfile
+- Added Jenkinsfile.
 
 =============
 Version 1.1.0
